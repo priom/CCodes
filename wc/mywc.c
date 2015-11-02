@@ -1,6 +1,3 @@
-// NRIMONI CHOWHDURY
-// A00371596
-
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,6 +1,3 @@
-//Nrimoni Chowdhury
-//A 00371596
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
