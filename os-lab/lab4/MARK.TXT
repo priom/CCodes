@@ -1,0 +1,13 @@
+Compiles with: gcc -Wall -Wextra -Werror kitten.c
+
+Correctly identifies a missing file.
+Correctly duplicates a file to stdout.
+
+Should use: #define STDOUT 1 and so on for constants.
+Inadequate formatting. 
+- Poor chose of variable names such as "x"
+Adequate comments.
+Error messages contain grammar mistakes.
+Does not contain date and purpose indication.
+
+9/10

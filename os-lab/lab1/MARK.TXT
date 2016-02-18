@@ -1,0 +1,14 @@
+Failed to compile with: gcc -Wall -Wextra -Werror mywc.c
+> Failure is tolerable but should be avoided in future
+
+Should use isspace() instead of just checking for ' ' and '\t' 
+since it will miss some whitespace
+
+Works fine on basic text files, fails badly on files like a.out
+Not well tested, can easily get it to produce different results to wc
+
+Adequate formating
+Some comments are redundant, e.g., "open file" before fopen()
+No author identification
+
+7/10

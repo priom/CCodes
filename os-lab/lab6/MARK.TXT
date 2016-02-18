@@ -1,0 +1,16 @@
+Compiles.
+Checks command line arguments.
+Coredumps when run with "./a.out 5 12"
+Also gives a fatal error for "free(): invalid next size".
+
+No comment with date or indication of purpose.
+Poor indentation that is inconsistent - unattractive code.
+Error checking could identify the failures more accurately instead of
+lumping all the failures into one complicated if statement.
+
+Code structured ineffectively - doing the malloc of a mailbox and the fork
+for each value of i is inappropriate - you need n of them only.
+
+Shows some potential but isn't a correct solution.
+
+5/10

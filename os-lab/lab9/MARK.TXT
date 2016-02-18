@@ -1,0 +1,7 @@
+Does not compile with: gcc -Wall -Wextra -Werror -pthread merge.c
+-- Does not compile with any command line, fprintf() has missing arguments
+Does not execute.
+Threads appear to be sequential and not parallel. Likely wouldn't work if it
+did compile.
+
+2 / 10

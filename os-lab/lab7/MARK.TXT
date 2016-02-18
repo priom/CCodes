@@ -1,0 +1,7 @@
+Compiles.
+Executed after key value was changed.
+Calculates incorrect result (100x too large).
+Inconsistent indentation and formatting.
+Everything is in main - lack of abstraction using functions.
+
+7/10

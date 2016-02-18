@@ -1,0 +1,15 @@
+Compiles with: gcc -Wall -Wextra -Werror perms.c
+
+Core dumps if filename and octal value not provided.
+Does not identify a missing file.
+Does not identify an invalid octal value.
+Does not check the return value of chmod()
+
+Inadequate formating. Inconsistent indentation.
+Adequate comments. Unnecessary code is commented out, not removed.
+Contains author indentification, date, and purpose indication.
+
+Renames argv[1] for no reason.
+Very minimal solution.
+
+5/10

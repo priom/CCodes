@@ -1,0 +1,24 @@
+Fails to compile with: gcc -Wall -Wextra -Werror lab2.c
+
+Does not calculate values correctly. Failed on my test data for median and mode.
+Incorrect user interface - did not match sample in specification where file 
+name is prompted for.
+Core dumps if file not found.
+Reports values correctly.
+
+Does not use a dynamically allocated array (e.g., with malloc).
+Error checking is inadequate (because of aforementioned core dump).
+
+Adequate formating.
+Adequate comments.
+Contains author indentification, date, and purpose indication.
+
+Contains redundant calculation in median() since you could simply pass 
+a pointer to the middle two values to mean() to find the median of an
+odd number of values.
+I would have had both min() and max() have identical parameter lists to 
+provide uniformity and to enable debugging (e.g., printing the array)
+if it was needed.
+You did not mention your strategy for handling of multi-modal data.
+
+5/10

@@ -1,0 +1,17 @@
+Compiles with: gcc -Wall -Wextra -Werror -pthread threadsort.c
+
+Correctly identifies an invalid command line.
+Correctly sorts the data.
+Does not write a sorted file.
+Does not use threads appropriately
+-- threads run sequentially, not in parallel.
+
+Not sure why you have global variables n, i - these could be local
+and neither is initialized.
+threadsort() is just a wrapper for sort() and is unnecessary.
+
+Adequate formating.
+Adequate comments.
+Contains author identification, date, and purpose indication.
+
+6.5 / 10

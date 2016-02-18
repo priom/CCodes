@@ -1,0 +1,14 @@
+Compiles with: gcc -Wall -Wextra -Werror logchain.c
+
+Correctly identifies an invalid command line.
+Correctly writes to a log file.
+Information in the log file is in the wrong sequence.
+Does not sequence the processes effectively.
+Inappropriately uses sleep() to sequence the processes.
+
+Inadequate formatting. 
+Ineffective and inconsistent use of white space (tabs, newlines, spaces).
+Insufficient (not enough) comments.
+Contains author identification but no date or purpose indication.
+
+5/10
