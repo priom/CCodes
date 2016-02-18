@@ -1,0 +1,4 @@
+Hello, it's Priom.
+Writing C code.
+C is complex.
+But C is the fundamental.
